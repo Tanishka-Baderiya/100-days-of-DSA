@@ -2,11 +2,9 @@
 
 #define MAX 100
 
-int adj[MAX][MAX];   // Adjacency matrix
-int visited[MAX];    // Visited array
-int n;               // Number of vertices
-
-// DFS function (recursive)
+int adj[MAX][MAX];   
+int visited[MAX];    
+int n;               
 void dfs(int v) {
     printf("%d ", v);
     visited[v] = 1;
